@@ -1,0 +1,73 @@
+{
+    "animals": [
+      {
+        "name": "Cow",
+        "weight": {
+          "kilograms": null,
+          "tons": null
+        },
+        "habitat": null,
+        "endangered": null,
+        "diet": null,
+        "predators": null,
+        "deliciousness": null,
+        "foodPercentage": {
+          "Grasses": null,
+          "Hay": null,
+          "Corn": null
+        }
+      },
+      {
+        "name": "Gray Wolf",
+        "weight": {
+          "kilograms": null,
+          "tons": null
+        },
+        "habitat": null,
+        "endangered": null,
+        "diet": null,
+        "predators": null,
+        "deliciousness": null,
+        "foodPercentage": {
+          "Deer": null,
+          "Rabbits": null,
+          "Moose": null
+        }
+      },
+      {
+        "name": "Squirrel",
+        "weight": {
+          "kilograms": null,
+          "tons": null
+        },
+        "habitat": null,
+        "endangered": null,
+        "diet": null,
+        "predators": null,
+        "deliciousness": null,
+        "foodPercentage": {
+          "Nuts": null,
+          "Seeds": null,
+          "Fruits": null
+        }
+      },
+      {
+        "name": "Elephant",
+        "weight": {
+          "kilograms": null,
+          "tons": null
+        },
+        "habitat": null,
+        "endangered": null,
+        "diet": null,
+        "predators": null,
+        "deliciousness": null,
+        "foodPercentage": {
+          "Grasses": null,
+          "Fruits": null,
+          "Bark": null
+        }
+      }
+    ]
+  }
+  

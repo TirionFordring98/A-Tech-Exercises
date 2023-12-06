@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+#chat {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 5fr 1fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+        "f c"
+        "f i"
+
+}
+
+#chatbox {
+    grid-area: c;
+    display: grid;
+    grid-gap: 10px;
+    
+}
+
+
+#friends {
+    display: grid;
+    grid-area: f;
+    background-color: purple;
+    padding: 10px;
+    color: white;
+    grid-gap: 10px;
+}
+#friends p {
+    border: 1px solid white;
+    height: 5vh;
+    width: 30vh;
+    background-color: rgb(212, 12, 223);
+    
+}
+.text-container {
+    display: grid;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 2px;
+    width: 150px;
+    height: 50px;
+    grid-template-columns: 2fr, 1fr;
+    grid-template-areas:
+        "text time";
+    grid-column-gap: 10px;
+    justify-content: space-between;
+ 
+}
+.right {
+    justify-self: end;
+    background-color: bisque;
+
+}
+.left {
+    background-color: rgb(23, 206, 17);
+
+}
+
+
+.text-container .text {
+    grid-area: text;
+    font-family: Courier;
+    font-size: 16px;
+}
+.text-container .time {
+    grid-area: time;
+    font-size: 10px;
+    align-self: flex-start;
+    margin-top: auto; 
+    margin-right: auto; 
+    font-family: Courier;
+}
+
+
+
+#main {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+/* /* / understand indepth */
+#input {
+    display: grid;
+    grid-template-columns: 14fr 1fr;
+    grid-template-areas:
+    "chatInput Button";
+    grid-area: i;
+    align-items: center;
+    padding: 10px; 
+}
+
+#input > input{
+    grid-area: chatInput;
+    
+}
+#input > div{
+    grid-area: Button;
+}
+   
+   
+
+#input div {}
